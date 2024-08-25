@@ -15,12 +15,12 @@ const Footer = () => {
   if (!isMounted) return null
 
   return (
-    <div className="flex md:w-full w-[80%]  bg-neutral-800 dark:bg-slate-50/90 text-white dark:text-black  container h-24 my-12 rounded-xl items-center justify-center border-6 border-white ">
+    <div className="flex w-11/12 container  bg-neutral-800 dark:bg-slate-50/90 text-white dark:text-black   h-24 my-12 rounded-xl items-center justify-center border-6 border-white ">
       <p className="text-md mx-4 text-gray-400 dark:text-gray-400">
-        © 2023 Acme Certifications. All rights reserved.
+        © 2024 Summarize Team. All rights reserved.
       </p>
       <p>
-        By <a href="https://www.github.com/lazydiv/">lazyDev at <a href="https://www.facebook.com/triple.s.cairo.branch">TRIPLE-S</a></a>
+        Developed By <a href="https://www.github.com/lazydiv/">lazyDev </a>
       </p>
     </div>
   )

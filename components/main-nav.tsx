@@ -24,7 +24,7 @@ export  function MainNav() {
         >
           Home
         </Link>
-        <Link href="https://api.whatsapp.com/send?phone=201100108253&text=%D8%B7%D8%B1%D9%8A%D9%82%D9%87%20%D8%A7%D9%84%D8%AF%D9%81%D8%B9%20%D8%9F"
+        <Link href="https://www.facebook.com/profile.php?id=61561908061240"
           className={cn(
             "transition-colors hover:text-foreground/80",
           )}

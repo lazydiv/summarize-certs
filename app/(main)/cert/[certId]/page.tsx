@@ -36,26 +36,27 @@ const certIdPage = async (
     }
 
     return (
-        <div className="container my-28 flex items-center ">
-
+        <div className="container my-28 flex flex-col space-y-10 items-center ">
+            <Image src={'https://utfs.io/f/4f406d7d-151d-4e92-9192-e92de15307af-r0grkz.png'} alt="logo" width={200} className="dark:hidden" height={200} />
+            <Image src={'https://utfs.io/f/3a3c971f-9026-46f3-b38c-5d3af5b27c1e-g0b6r3.png'} alt="logo" width={200} className="hidden dark:inline" height={200} />
             <Alert className="flex felx-col justify-between">
                 <div>
 
-                    <Terminal className="h-9 w-5" />
-                    <AlertTitle className="text-2xl font-semibold">Heads up!</AlertTitle>
+                    <Terminal className="h-9 w-5 inline" />
+                    <AlertTitle className="text-2xl font-semibold">Course Certificate </AlertTitle>
                     <AlertDescription>
                         {/* write something about a certfication */}
                     
                         <div className="mt-4 text-lg font-bold  ">
 
                             <p className="text-gray-500">
-                                Certificate Holder: <span className="text-green-600 font-medium" >{cert?.name}</span>
+                                Full name: <span className="text-green-600 font-normal" >{cert?.name}</span>
                             </p>
                             <p className="text-gray-500">
-                                Course: <span className="text-green-600 font-medium">{cert?.course}</span>
+                                Course: <span className="text-green-600 font-normal">{cert?.course}</span>
                             </p>
                             <p className="text-gray-500">
-                                Certificate: <span className="text-green-600 font-medium">{cert?.title}</span>
+                                Certificate: <span className="text-green-600 font-normal">{cert?.title}</span>
                             </p>
                         </div>
                         <Badge className="mt-5 text-md bg-green-500 ">{cert?.status}</Badge>
