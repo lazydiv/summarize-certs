@@ -1,0 +1,49 @@
+"filename", "language", "TypeScript", "JSON with Comments", "TypeScript JSX", "Properties", "JSON", "Markdown", "XML", "CSS", "JavaScript", "Prisma", "comment", "blank", "total"
+"d:\work\sumrize-teaam\.env", "Properties", 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 4, 4, 11
+"d:\work\sumrize-teaam\README.md", "Markdown", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 14, 37
+"d:\work\sumrize-teaam\app\(main)\admin\layout.tsx", "TypeScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 14, 34
+"d:\work\sumrize-teaam\app\(main)\admin\page.tsx", "TypeScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 5, 11, 36
+"d:\work\sumrize-teaam\app\globals.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 3, 69
+"d:\work\sumrize-teaam\app\layout.tsx", "TypeScript JSX", 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 6, 46
+"d:\work\sumrize-teaam\app\page.tsx", "TypeScript JSX", 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 7, 5, 49
+"d:\work\sumrize-teaam\components.json", "JSON", 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 17
+"d:\work\sumrize-teaam\components\footer.tsx", "TypeScript JSX", 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 8, 27
+"d:\work\sumrize-teaam\components\left-admin.tsx", "TypeScript JSX", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 2, 23
+"d:\work\sumrize-teaam\components\main-nav.tsx", "TypeScript JSX", 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 11, 38
+"d:\work\sumrize-teaam\components\modals\create-cert.tsx", "TypeScript JSX", 0, 0, 191, 0, 0, 0, 0, 0, 0, 0, 9, 46, 246
+"d:\work\sumrize-teaam\components\mode-toggle.tsx", "TypeScript JSX", 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 1, 6, 48
+"d:\work\sumrize-teaam\components\nav.tsx", "TypeScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 8, 28
+"d:\work\sumrize-teaam\components\table.tsx", "TypeScript JSX", 0, 0, 300, 0, 0, 0, 0, 0, 0, 0, 1, 12, 313
+"d:\work\sumrize-teaam\components\ui\alert.tsx", "TypeScript JSX", 0, 0, 53, 0, 0, 0, 0, 0, 0, 0, 0, 7, 60
+"d:\work\sumrize-teaam\components\ui\button.tsx", "TypeScript JSX", 0, 0, 51, 0, 0, 0, 0, 0, 0, 0, 0, 6, 57
+"d:\work\sumrize-teaam\components\ui\checkbox.tsx", "TypeScript JSX", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"d:\work\sumrize-teaam\components\ui\dialog.tsx", "TypeScript JSX", 0, 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 14, 123
+"d:\work\sumrize-teaam\components\ui\dropdown-menu.tsx", "TypeScript JSX", 0, 0, 182, 0, 0, 0, 0, 0, 0, 0, 0, 19, 201
+"d:\work\sumrize-teaam\components\ui\form.tsx", "TypeScript JSX", 0, 0, 153, 0, 0, 0, 0, 0, 0, 0, 0, 26, 179
+"d:\work\sumrize-teaam\components\ui\input.tsx", "TypeScript JSX", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"d:\work\sumrize-teaam\components\ui\label.tsx", "TypeScript JSX", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 6, 27
+"d:\work\sumrize-teaam\components\ui\scroll-area.tsx", "TypeScript JSX", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 6, 49
+"d:\work\sumrize-teaam\components\ui\select.tsx", "TypeScript JSX", 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 15, 161
+"d:\work\sumrize-teaam\components\ui\separator.tsx", "TypeScript JSX", 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 5, 32
+"d:\work\sumrize-teaam\components\ui\table.tsx", "TypeScript JSX", 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 11, 118
+"d:\work\sumrize-teaam\components\ui\toast.tsx", "TypeScript JSX", 0, 0, 116, 0, 0, 0, 0, 0, 0, 0, 0, 14, 130
+"d:\work\sumrize-teaam\components\ui\toaster.tsx", "TypeScript JSX", 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 4, 36
+"d:\work\sumrize-teaam\components\ui\use-toast.ts", "TypeScript", 160, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 32, 195
+"d:\work\sumrize-teaam\hooks\use-model-store.tsx", "TypeScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 8, 28
+"d:\work\sumrize-teaam\lib\current-user.tsx", "TypeScript JSX", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 7, 21
+"d:\work\sumrize-teaam\lib\db.ts", "TypeScript", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10
+"d:\work\sumrize-teaam\lib\init-user.tsx", "TypeScript JSX", 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 10, 34
+"d:\work\sumrize-teaam\lib\utils.ts", "TypeScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"d:\work\sumrize-teaam\middleware.ts", "TypeScript", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 16
+"d:\work\sumrize-teaam\next.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 2, 5
+"d:\work\sumrize-teaam\package-lock.json", "JSON", 0, 0, 0, 0, 3386, 0, 0, 0, 0, 0, 0, 1, 3387
+"d:\work\sumrize-teaam\package.json", "JSON", 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 0, 1, 52
+"d:\work\sumrize-teaam\postcss.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 2, 9
+"d:\work\sumrize-teaam\prisma\schema.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 7, 15, 54
+"d:\work\sumrize-teaam\providers\model-provider.tsx", "TypeScript JSX", 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 10, 25
+"d:\work\sumrize-teaam\providers\theme-provider.tsx", "TypeScript JSX", 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"d:\work\sumrize-teaam\public\next.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"d:\work\sumrize-teaam\public\vercel.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"d:\work\sumrize-teaam\tailwind.config.ts", "TypeScript", 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 80
+"d:\work\sumrize-teaam\tsconfig.json", "JSON with Comments", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 260, 26, 1902, 3, 3454, 23, 2, 66, 8, 32, 42, 396, 6214

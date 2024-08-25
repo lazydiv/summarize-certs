@@ -1,0 +1,94 @@
+Date : 2024-08-21 06:45:19
+Directory : d:\work\sumrize-teaam
+Total : 47 files,  5776 codes, 42 comments, 396 blanks, all 6214 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          3 |      3,454 |          0 |          2 |      3,456 |
+| TypeScript JSX     |         30 |      1,902 |         24 |        310 |      2,236 |
+| TypeScript         |          5 |        260 |          5 |         43 |        308 |
+| CSS                |          1 |         66 |          0 |          3 |         69 |
+| Prisma             |          1 |         32 |          7 |         15 |         54 |
+| JSON with Comments |          1 |         26 |          0 |          1 |         27 |
+| Markdown           |          1 |         23 |          0 |         14 |         37 |
+| JavaScript         |          2 |          8 |          2 |          4 |         14 |
+| Properties         |          1 |          3 |          4 |          4 |         11 |
+| XML                |          2 |          2 |          0 |          0 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                       |         47 |      5,776 |         42 |        396 |      6,214 |
+| . (Files)                                               |         10 |      3,603 |          8 |         30 |      3,641 |
+| app                                                     |          5 |        183 |         12 |         39 |        234 |
+| app (Files)                                             |          3 |        143 |          7 |         14 |        164 |
+| app\(main)                                              |          2 |         40 |          5 |         25 |         70 |
+| app\(main)\admin                                        |          2 |         40 |          5 |         25 |         70 |
+| components                                              |         22 |      1,865 |         15 |        268 |      2,148 |
+| components (Files)                                      |          6 |        427 |          3 |         47 |        477 |
+| components\modals                                       |          1 |        191 |          9 |         46 |        246 |
+| components\ui                                           |         15 |      1,247 |          3 |        175 |      1,425 |
+| hooks                                                   |          1 |         20 |          0 |          8 |         28 |
+| lib                                                     |          4 |         49 |          0 |         23 |         72 |
+| prisma                                                  |          1 |         32 |          7 |         15 |         54 |
+| providers                                               |          2 |         22 |          0 |         13 |         35 |
+| public                                                  |          2 |          2 |          0 |          0 |          2 |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\work\sumrize-teaam\.env                              | Properties         |          3 |          4 |          4 |         11 |
+| d:\work\sumrize-teaam\README.md                         | Markdown           |         23 |          0 |         14 |         37 |
+| d:\work\sumrize-teaam\app\(main)\admin\layout.tsx       | TypeScript JSX     |         20 |          0 |         14 |         34 |
+| d:\work\sumrize-teaam\app\(main)\admin\page.tsx         | TypeScript JSX     |         20 |          5 |         11 |         36 |
+| d:\work\sumrize-teaam\app\globals.css                   | CSS                |         66 |          0 |          3 |         69 |
+| d:\work\sumrize-teaam\app\layout.tsx                    | TypeScript JSX     |         40 |          0 |          6 |         46 |
+| d:\work\sumrize-teaam\app\page.tsx                      | TypeScript JSX     |         37 |          7 |          5 |         49 |
+| d:\work\sumrize-teaam\components.json                   | JSON               |         17 |          0 |          0 |         17 |
+| d:\work\sumrize-teaam\components\footer.tsx             | TypeScript JSX     |         18 |          1 |          8 |         27 |
+| d:\work\sumrize-teaam\components\left-admin.tsx         | TypeScript JSX     |         21 |          0 |          2 |         23 |
+| d:\work\sumrize-teaam\components\main-nav.tsx           | TypeScript JSX     |         27 |          0 |         11 |         38 |
+| d:\work\sumrize-teaam\components\modals\create-cert.tsx | TypeScript JSX     |        191 |          9 |         46 |        246 |
+| d:\work\sumrize-teaam\components\mode-toggle.tsx        | TypeScript JSX     |         41 |          1 |          6 |         48 |
+| d:\work\sumrize-teaam\components\nav.tsx                | TypeScript JSX     |         20 |          0 |          8 |         28 |
+| d:\work\sumrize-teaam\components\table.tsx              | TypeScript JSX     |        300 |          1 |         12 |        313 |
+| d:\work\sumrize-teaam\components\ui\alert.tsx           | TypeScript JSX     |         53 |          0 |          7 |         60 |
+| d:\work\sumrize-teaam\components\ui\button.tsx          | TypeScript JSX     |         51 |          0 |          6 |         57 |
+| d:\work\sumrize-teaam\components\ui\checkbox.tsx        | TypeScript JSX     |         26 |          0 |          5 |         31 |
+| d:\work\sumrize-teaam\components\ui\dialog.tsx          | TypeScript JSX     |        109 |          0 |         14 |        123 |
+| d:\work\sumrize-teaam\components\ui\dropdown-menu.tsx   | TypeScript JSX     |        182 |          0 |         19 |        201 |
+| d:\work\sumrize-teaam\components\ui\form.tsx            | TypeScript JSX     |        153 |          0 |         26 |        179 |
+| d:\work\sumrize-teaam\components\ui\input.tsx           | TypeScript JSX     |         21 |          0 |          5 |         26 |
+| d:\work\sumrize-teaam\components\ui\label.tsx           | TypeScript JSX     |         21 |          0 |          6 |         27 |
+| d:\work\sumrize-teaam\components\ui\scroll-area.tsx     | TypeScript JSX     |         43 |          0 |          6 |         49 |
+| d:\work\sumrize-teaam\components\ui\select.tsx          | TypeScript JSX     |        146 |          0 |         15 |        161 |
+| d:\work\sumrize-teaam\components\ui\separator.tsx       | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| d:\work\sumrize-teaam\components\ui\table.tsx           | TypeScript JSX     |        107 |          0 |         11 |        118 |
+| d:\work\sumrize-teaam\components\ui\toast.tsx           | TypeScript JSX     |        116 |          0 |         14 |        130 |
+| d:\work\sumrize-teaam\components\ui\toaster.tsx         | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| d:\work\sumrize-teaam\components\ui\use-toast.ts        | TypeScript         |        160 |          3 |         32 |        195 |
+| d:\work\sumrize-teaam\hooks\use-model-store.tsx         | TypeScript JSX     |         20 |          0 |          8 |         28 |
+| d:\work\sumrize-teaam\lib\current-user.tsx              | TypeScript JSX     |         14 |          0 |          7 |         21 |
+| d:\work\sumrize-teaam\lib\db.ts                         | TypeScript         |          6 |          0 |          4 |         10 |
+| d:\work\sumrize-teaam\lib\init-user.tsx                 | TypeScript JSX     |         24 |          0 |         10 |         34 |
+| d:\work\sumrize-teaam\lib\utils.ts                      | TypeScript         |          5 |          0 |          2 |          7 |
+| d:\work\sumrize-teaam\middleware.ts                     | TypeScript         |         11 |          2 |          3 |         16 |
+| d:\work\sumrize-teaam\next.config.mjs                   | JavaScript         |          2 |          1 |          2 |          5 |
+| d:\work\sumrize-teaam\package-lock.json                 | JSON               |      3,386 |          0 |          1 |      3,387 |
+| d:\work\sumrize-teaam\package.json                      | JSON               |         51 |          0 |          1 |         52 |
+| d:\work\sumrize-teaam\postcss.config.mjs                | JavaScript         |          6 |          1 |          2 |          9 |
+| d:\work\sumrize-teaam\prisma\schema.prisma              | Prisma             |         32 |          7 |         15 |         54 |
+| d:\work\sumrize-teaam\providers\model-provider.tsx      | TypeScript JSX     |         15 |          0 |         10 |         25 |
+| d:\work\sumrize-teaam\providers\theme-provider.tsx      | TypeScript JSX     |          7 |          0 |          3 |         10 |
+| d:\work\sumrize-teaam\public\next.svg                   | XML                |          1 |          0 |          0 |          1 |
+| d:\work\sumrize-teaam\public\vercel.svg                 | XML                |          1 |          0 |          0 |          1 |
+| d:\work\sumrize-teaam\tailwind.config.ts                | TypeScript         |         78 |          0 |          2 |         80 |
+| d:\work\sumrize-teaam\tsconfig.json                     | JSON with Comments |         26 |          0 |          1 |         27 |
+| Total                                                   |                    |      5,776 |         42 |        396 |      6,214 |
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+
