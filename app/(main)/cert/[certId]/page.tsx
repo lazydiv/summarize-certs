@@ -61,7 +61,7 @@ const certIdPage = async (
                                 Certificate: <span className="text-green-600 font-normal">{cert?.title}</span>
                             </p>
                         </div>
-                        <Badge className={cert?.status === 'verfied' ? 'bg-green-500' : 'bg-red-500'}>{cert?.status}</Badge>
+                        <Badge className={cert?.status.toLowerCase() === 'verified'  ? 'bg-green-500' : 'bg-red-500'}>{cert?.status}</Badge>
                         <Badge variant={"outline"} className="mt-5 text-md  ml-5">{cert?.createdAt.toDateString()}</Badge>
                     </AlertDescription>
                 </div>
