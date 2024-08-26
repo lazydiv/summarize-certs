@@ -16,7 +16,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section className="w-full py-18 lg:py-22 xl:py-36">
+      <section className="w-full py-36">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
