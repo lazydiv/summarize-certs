@@ -17,7 +17,7 @@ export async function Nav() {
 
 
                     
-                    <span className="text-green-500 font-bold inline">
+                    <span className="text-green-500 font-semibold inline">
                         Summarize Team
                     </span>
                 </Link>
