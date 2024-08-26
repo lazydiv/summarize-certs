@@ -38,7 +38,7 @@ import {
 } from "@/components/ui/table"
 import axios from "axios"
 import { useRouter } from "next/navigation"
-import { createStyleRegistry } from "styled-jsx"
+
 import { useModal } from "@/hooks/use-model-store"
 
 
