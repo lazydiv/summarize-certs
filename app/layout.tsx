@@ -10,7 +10,8 @@ import {
 } from '@clerk/nextjs'
 import { ModelProvider } from "@/providers/model-provider";
 const inter = Inter({ subsets: ["latin"] });
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata: Metadata = {
   title: "SUMMARIZE TEAM",
   description: "summarize team certs",
@@ -36,6 +37,8 @@ export default function RootLayout({
             <Nav />
             <ModelProvider />
             {children}
+            <SpeedInsights />
+            <Analytics />
             <Footer />
           </ThemeProvider>
         </body>
