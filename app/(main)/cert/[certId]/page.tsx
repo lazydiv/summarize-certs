@@ -49,7 +49,7 @@ const certIdPage = async (
                     <AlertDescription>
                         {/* write something about a certfication */}
 
-                        <div className="mt-4 text-[15px] md:text-lg  font-bold  ">
+                        <div className="mt-4 md:text-lg text-sm font-bold  ">
 
                             <p className="text-gray-500 ">
                                 Full name: <span className="text-green-600 font-normal" >{cert?.name}</span>
