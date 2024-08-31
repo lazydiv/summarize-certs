@@ -37,7 +37,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 import axios from "axios"
-import { useRouter } from "next/navigation"
+import { redirect, useRouter } from "next/navigation"
 
 import { useModal } from "@/hooks/use-model-store"
 
@@ -96,7 +96,11 @@ export const columns: ColumnDef<cert>[] = [
     accessorKey: "title",
     header: "title",
     cell: ({ row }) => (
-      <div className="capitalize">{row.getValue("title")}</div>
+      <div className="capitalize">
+
+        {row.getValue("course")}
+
+      </div>
     ),
   },
   {
@@ -112,7 +116,7 @@ export const columns: ColumnDef<cert>[] = [
     id: "actions",
     enableHiding: false,
     cell: ({ row }) => {
-      const {onOpen} = useModal()
+      const { onOpen } = useModal()
       const Certificate = row.original
       console.log(Certificate)
       const router = useRouter()
@@ -149,7 +153,7 @@ export const columns: ColumnDef<cert>[] = [
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem onClick={() => onKick()}>Delete Certifcate</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => onOpen("updateCert", {Certificate})}>Update Certifcates details</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => onOpen("updateCert", { Certificate })}>Update Certifcates details</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       )
@@ -267,11 +271,14 @@ export function DataTable(
                   data-state={row.getIsSelected() && "selected"}
                 >
                   {row.getVisibleCells().map((cell) => (
-                    <TableCell key={cell.id}>
-                      {flexRender(
-                        cell.column.columnDef.cell,
-                        cell.getContext()
-                      )}
+                    <TableCell key={cell.id} className="cursor-pointer" onClick={() => redirect(`${origin}/cert/${row.original.id}`)}>
+                      <a href={`${origin}/cert/${row.original.id}`} >
+
+                        {flexRender(
+                          cell.column.columnDef.cell,
+                          cell.getContext()
+                        )}
+                      </a>
                     </TableCell>
                   ))}
                 </TableRow>

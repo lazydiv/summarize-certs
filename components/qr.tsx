@@ -10,13 +10,13 @@ const QrModal = () => {
 
     useEffect(() => {
         const currentUrl = window.location.href;
-        setQrCodeUrl(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(currentUrl)}&bgcolor=${theme === 'light' ? '000' : 'fff'}&color=${theme === 'light' ? 'fff' : '000'}`);
+        setQrCodeUrl(`https://api.qrserver.com/v1/create-qr-code/?size=1080x1080&format=jpeg&data=${encodeURIComponent(currentUrl)}&bgcolor=${theme === 'light' ? '000' : 'fff'}&color=${theme === 'light' ? 'fff' : '000'}`);
     }, []);
 
     return (
         <div>
             {qrCodeUrl && (
-                <Image src={qrCodeUrl} alt="QR Code" width={55} height={55} />
+                <Image src={qrCodeUrl} alt="QR Code" width={55} height={55} className=''/>
             )}
         </div>
     );

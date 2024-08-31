@@ -42,33 +42,40 @@ const certIdPage = async (
 
             <Alert className="flex felx-col justify-between border-green-400 dark:border-green-400/40">
 
-                <div className="">
+                <div className="w-full">
+                    <div className="inline-flex justify-between w-full">
 
-                    <Terminal className="h-9 w-5 inline" />
-                    <AlertTitle className="text-2xl font-semibold">Course Certificate </AlertTitle>
+                    <Terminal className="h-9 w-5 " />
+                        <QrModal />
+                    </div>
+                    <AlertTitle className="text-2xl inline-flex w-full justify-between font-semibold">Course Certificate
+                    </AlertTitle>
                     <AlertDescription>
                         {/* write something about a certfication */}
 
-                        <div className="mt-4 md:text-lg text-sm font-bold  ">
+                        <div className="mt-4 md:text-lg  font-bold  ">
 
                             <p className="text-gray-500 ">
                                 Full name: <span className="text-green-600 font-normal" >{cert?.name}</span>
                             </p>
-                            <p className="text-gray-500  md:tracking-normal tracking-tighter">
+                            <p className="text-gray-500 text-xs md:textlg  md:tracking-normal tracking-tighter">
                                 Course: <span className="text-green-600 font-normal">{cert?.course}</span>
                             </p>
                             <p className="text-gray-500">
                                 Certificate: <span className="text-green-600 font-normal">{cert?.title}</span>
                             </p>
                         </div>
-                        <Badge className={cert?.status.toLowerCase() === 'verified'  ? 'bg-green-500' : 'bg-red-500'}>{cert?.status}</Badge>
+                        <Badge className={cert?.status.toLowerCase() === 'verified' ? 'bg-green-500' : 'bg-red-500'}>{cert?.status}</Badge>
                         <Badge variant={"outline"} className="mt-5 text-md  ml-5">{cert?.createdAt.toDateString()}</Badge>
                     </AlertDescription>
                 </div>
-                <QrModal />
+
+
+
+
 
             </Alert>
-  
+
 
 
 
