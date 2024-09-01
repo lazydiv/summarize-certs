@@ -53,12 +53,12 @@ const certIdPage = async (
                     <AlertDescription>
                         {/* write something about a certfication */}
 
-                        <div className="mt-4 md:text-lg  font-bold  ">
+                        <div className="mt-4 text-lg  font-bold  ">
 
                             <p className="text-gray-500 ">
                                 Full name: <span className="text-green-600 font-normal" >{cert?.name}</span>
                             </p>
-                            <p className="text-gray-500 text-xs md:textlg  md:tracking-normal tracking-tighter">
+                            <p className="text-gray-500 tracking-tighter">
                                 Course: <span className="text-green-600 font-normal">{cert?.course}</span>
                             </p>
                             <p className="text-gray-500">
