@@ -65,9 +65,7 @@ export async function PATCH(req: Request) {
  
 
 
-        return (
-            NextResponse.json(cert)
-        )
+        return NextResponse.json(cert)
 
 
     } catch (error) {
