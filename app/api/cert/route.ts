@@ -103,7 +103,7 @@ export async function DELETE(req: Request) {
     } catch (error) {
 
         console.log("[deleting certificate]", error)
-        return new NextResponse("Internal Server Error", { status: 500 })
+        return new NextResponse("Internal Server Error.", { status: 500 })
 
     }
 
